@@ -1,0 +1,99 @@
+[
+  {
+    "ContainingType": "GIS.City.Service.Controllers.DistrictController",
+    "Method": "CreateDistrict",
+    "RelativePath": "District",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "districtCreateDTO",
+        "Type": "GIS.City.Service.DTOs.DistrictCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GIS.City.Service.Controllers.DistrictController",
+    "Method": "UpdateDistrict",
+    "RelativePath": "District",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "countryId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "districtUpdateDTO",
+        "Type": "GIS.City.Service.DTOs.DistrictBasicUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GIS.City.Service.Controllers.DistrictController",
+    "Method": "DeleteDistrict",
+    "RelativePath": "District",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "countryId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "districtId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GIS.City.Service.Controllers.DistrictController",
+    "Method": "Get",
+    "RelativePath": "District/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "Get"
+  },
+  {
+    "ContainingType": "GIS.City.Service.Controllers.DistrictController",
+    "Method": "GetAllAsync",
+    "RelativePath": "District/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetAll"
+  },
+  {
+    "ContainingType": "GIS.City.Service.Controllers.DistrictController",
+    "Method": "GetIdsAsync",
+    "RelativePath": "District/GetIds",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetIds"
+  }
+]

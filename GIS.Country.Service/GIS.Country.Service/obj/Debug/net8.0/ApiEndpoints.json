@@ -1,0 +1,110 @@
+[
+  {
+    "ContainingType": "GIS.Country.Service.Controllers.CountryController",
+    "Method": "CreateCountry",
+    "RelativePath": "Country",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "countryCreateDTO",
+        "Type": "GIS.Country.Service.DTOs.CountryCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GIS.Country.Service.Controllers.CountryController",
+    "Method": "UpdateCountry",
+    "RelativePath": "Country",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "countryUpdateDTO",
+        "Type": "GIS.Common.CountryUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GIS.Country.Service.Controllers.CountryController",
+    "Method": "DeleteCountry",
+    "RelativePath": "Country",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GIS.Country.Service.Controllers.CountryController",
+    "Method": "DeleteCityFromCountry",
+    "RelativePath": "Country/DeleteCity",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "countryId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "cityId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GIS.Country.Service.Controllers.CountryController",
+    "Method": "GetAsync",
+    "RelativePath": "Country/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "Get"
+  },
+  {
+    "ContainingType": "GIS.Country.Service.Controllers.CountryController",
+    "Method": "GetAllAsync",
+    "RelativePath": "Country/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetAll"
+  },
+  {
+    "ContainingType": "GIS.Country.Service.Controllers.CountryController",
+    "Method": "GetIdsAsync",
+    "RelativePath": "Country/GetIds",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetIds"
+  }
+]

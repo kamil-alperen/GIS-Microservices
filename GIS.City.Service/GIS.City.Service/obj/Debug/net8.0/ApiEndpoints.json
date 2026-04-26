@@ -1,0 +1,115 @@
+[
+  {
+    "ContainingType": "GIS.City.Service.Controllers.CityController",
+    "Method": "CreateCity",
+    "RelativePath": "City",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cityCreateDTO",
+        "Type": "GIS.City.Service.DTOs.CityCreateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GIS.City.Service.Controllers.CityController",
+    "Method": "UpdateCity",
+    "RelativePath": "City",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "countryId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "cityUpdateDTO",
+        "Type": "GIS.Common.CityUpdateDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GIS.City.Service.Controllers.CityController",
+    "Method": "DeleteCity",
+    "RelativePath": "City",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cityId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GIS.City.Service.Controllers.CityController",
+    "Method": "DeleteDistrictFromCity",
+    "RelativePath": "City/DeleteDistrict",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "cityId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      },
+      {
+        "Name": "districtId",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GIS.City.Service.Controllers.CityController",
+    "Method": "Get",
+    "RelativePath": "City/Get",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [],
+    "EndpointName": "Get"
+  },
+  {
+    "ContainingType": "GIS.City.Service.Controllers.CityController",
+    "Method": "GetAllAsync",
+    "RelativePath": "City/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetAll"
+  },
+  {
+    "ContainingType": "GIS.City.Service.Controllers.CityController",
+    "Method": "GetIdsAsync",
+    "RelativePath": "City/GetIds",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "EndpointName": "GetIds"
+  }
+]
